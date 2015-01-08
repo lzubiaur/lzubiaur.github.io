@@ -1,4 +1,7 @@
 <?php
+
+use \google\appengine\api\mail\Message;
+
 switch ($_SERVER['HTTP_ORIGIN']) {
     case 'http://voodoocactus.com': case 'http://www.voodoocactus.com':
     header('Access-Control-Allow-Origin: '.$_SERVER['HTTP_ORIGIN']);
@@ -27,8 +30,22 @@ switch ($_SERVER['HTTP_ORIGIN']) {
     $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
     $headers = "From: noreply@voodoocactus.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
     $headers .= "Reply-To: $email_address";	
-    mail($to,$email_subject,$email_body,$headers);
+
+    try
+    {
+        $message = new Message();
+        /// sender email must be of the form [any string]@[Application ID].appspotmail.com
+        $message->setSender('noreply@voodoo-cactus.appspotmail.com');
+        $message->addTo('contact@voodoocactus.com');
+        $message->setSubject($email_subject);
+        $message->setTextBody($email_body);
+        $message->send();
+    } catch (InvalidArgumentException $e) {
+        syslog(LOG_ERR,$e->getMessage());
+    }
+
+    // PHP mail function not supported by Google AppEngine
+    // mail($to,$email_subject,$email_body,$headers);
     return true;			
-    break;
 }
 ?>

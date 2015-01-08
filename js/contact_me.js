@@ -20,7 +20,7 @@ $(function() {
             $.ajax({
                 url: "http://voodoo-cactus.appspot.com/mail/contact_me.php",
                 type: "POST",
-                crossDomain: true,
+                // crossDomain: true,
                 data: {
                     name: name,
                     phone: phone,
