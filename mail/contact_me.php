@@ -8,6 +8,7 @@ switch ($_SERVER['HTTP_ORIGIN']) {
     header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
     header('Access-Control-Max-Age: 1000');
     header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+
     // Check for empty fields
     if(empty($_POST['name'])  		||
         empty($_POST['email']) 		||
@@ -16,6 +17,7 @@ switch ($_SERVER['HTTP_ORIGIN']) {
         !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
     {
         echo "No arguments Provided!";
+        syslog(LOG_WARNING,'No arguments Provided!');
         return false;
     }
 
@@ -41,7 +43,8 @@ switch ($_SERVER['HTTP_ORIGIN']) {
         $message->setTextBody($email_body);
         $message->send();
     } catch (InvalidArgumentException $e) {
-        syslog(LOG_ERR,$e->getMessage());
+        syslog(LOG_WARNING,'Error sending email:' . $e->getMessage());
+        return false;
     }
 
     // PHP mail function not supported by Google AppEngine
