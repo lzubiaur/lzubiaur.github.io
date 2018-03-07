@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta class="foundation-mq">
+    <meta name="google-site-verification" content="">
+    <meta name="theme-color" content="#48355B">
+    <title>Style Guide | IndieAppDev!</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#48355B">
+    <meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
+    <link rel="stylesheet" href="assets/stylesheets/style-min.css">
+  </head>
+  <body class="animate-in" id="style-guide">
+    <div class="row">
+      <div class="small-16 columns">
+        <hr class="spacer">
+        <h1>Basic Structural Elements <br><small>Copy &amp; Paste to create your designs</small></h1>
+        <hr class="spacer">
+        <hr>
+      </div>
+    </div>
+    <!-- FORMS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h3 id="forms">Forms</h3>
+        <hr class="title">
+        <div class="p-l-35">
+          <form>
+            <label>Split Text Inputs</label>
+            <div class="row">
+              <div class="small-16 medium-8 columns">
+                <input type="text" name="split1" placeholder="First">
+              </div>
+              <div class="small-16 medium-8 columns">
+                <input type="text" name="split2" placeholder="Last">
+              </div>
+            </div>
+            <label>Full Width Input</label>
+            <input type="text" name="fullwidth" placeholder="">
+            <label>Disabled Input</label>
+            <input type="email" placeholder="myemail@gmail.com" disabled>
+            <label>Custom Select</label>
+            <div class="select">
+              <select>
+                <option value="opt0">Please select one</option>
+                <option value="opt1">Option 1</option>
+                <option value="opt2">Option 2</option>
+                <option value="opt3">Option 3</option>
+                <option value="opt4">Option 4</option>
+              </select>
+            </div>
+            <label>Textarea
+              <textarea></textarea>
+            </label>
+            <hr class="spacer">
+            <hr>
+            <div class="row">
+              <div class="small-16 medium-8 columns">
+                <label>Custom Checkboxes</label>
+                <label class="control control--checkbox">First checkbox
+                  <input type="checkbox" checked="checked">
+                  <div class="control__indicator"></div>
+                </label>
+                <label class="control control--checkbox">Second checkbox
+                  <input type="checkbox">
+                  <div class="control__indicator"></div>
+                </label>
+                <label class="control control--checkbox">Disabled
+                  <input type="checkbox" disabled="disabled">
+                  <div class="control__indicator"></div>
+                </label>
+                <label class="control control--checkbox">Disabled &amp; checked
+                  <input type="checkbox" disabled="disabled" checked="checked">
+                  <div class="control__indicator"></div>
+                </label>
+              </div>
+              <div class="small-16 medium-8 columns">
+                <label>Custom Radio Buttons</label>
+                <label class="control control--radio">First radio
+                  <input type="radio" name="radio" checked="checked">
+                  <div class="control__indicator"></div>
+                </label>
+                <label class="control control--radio">Second radio
+                  <input type="radio" name="radio">
+                  <div class="control__indicator"></div>
+                </label>
+                <label class="control control--radio">Disabled
+                  <input type="radio" name="radio2" disabled="disabled">
+                  <div class="control__indicator"></div>
+                </label>
+                <label class="control control--radio">Disabled &amp; checked
+                  <input type="radio" name="radio2" disabled="disabled" checked="checked">
+                  <div class="control__indicator"></div>
+                </label>
+              </div>
+            </div>
+            <hr class="spacer">
+            <div class="row">
+              <div class="small-16 medium-8 columns">
+                <label>Unstyled Checkboxes</label>
+                <input id="checkbox1" type="checkbox">
+                <label class="alternate" for="checkbox1">Option 1</label>
+                <input id="checkbox2" type="checkbox">
+                <label class="alternate" for="checkbox2">Option 2</label>
+                <input id="checkbox3" type="checkbox">
+                <label class="alternate" for="checkbox3">Option 3</label>
+              </div>
+              <div class="small-16 medium-8 columns">
+                <label>Unstyled Radio Buttons</label>
+                <input id="unstyled1" type="radio" name="unstyled" value="Read" required="">
+                <label class="alternate" for="unstyled1">I have read everything</label>
+                <input id="unstyled2" type="radio" name="unstyled" value="MaybeNot">
+                <label class="alternate" for="unstyled2">Maybe not</label>
+              </div>
+            </div>
+            <hr class="spacer">
+            <label>Checkboxes / Radio Buttons as Switches</label>
+            <div class="switch tiny">
+              <input class="switch-input" id="tinySwitch" type="checkbox" name="exampleSwitch">
+              <label class="switch-paddle" for="tinySwitch"><span class="show-for-sr">Tiny</span></label>
+            </div>
+            <div class="switch small">
+              <input class="switch-input" id="smallSwitch" type="checkbox" name="exampleSwitch">
+              <label class="switch-paddle" for="smallSwitch"><span class="show-for-sr">Small</span></label>
+            </div>
+            <div class="switch large">
+              <input class="switch-input" id="largeSwitch" type="checkbox" name="exampleSwitch">
+              <label class="switch-paddle" for="largeSwitch"><span class="show-for-sr">Large</span></label>
+            </div>
+            <hr class="spacer">
+            <div class="row">
+              <div class="small-6 medium-3 columns">
+                <label class="text-center middle">Label on the side</label>
+              </div>
+              <div class="small-10 medium-13 columns">
+                <input type="text" name="middle-label" placeholder="">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- TYPOGRAPHY-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="typography">Typography</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <!-- HEADERS-->
+          <h1>h1. FONT SIZE AND STYLE FOR h1</h1>
+          <h2>h2. FONT SIZE AND STYLE FOR h2</h2>
+          <h3>h3. FONT SIZE AND STYLE FOR h3</h3>
+          <h4>h4. FONT SIZE AND STYLE FOR h4</h4>
+          <h5>h5. FONT SIZE AND STYLE FOR h5</h5>
+          <h6>h6. FONT SIZE AND STYLE FOR h6</h6>
+          <hr>
+          <!--PARAGRAPHS-->
+          <h3>Paragraphs</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+          <p>Example 2 - <a href="#/">16/06/2017 </a>by <a href="#/">Admin</a></p>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- BUTTONS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="buttons">Buttons</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <!-- BUTTONS AS ANCHORS - FILLED (links)-->
+          <h5>Buttons as Links</h5>
+          <div class="buttons-style-guide clearfix">
+            <div><a class="button" href="#/"> <span>Button</span></a></div>
+            <div><a class="button rounded" href="#/">Rounded Button</a></div>
+          </div>
+          <!-- BUTTONS - FILLED-->
+          <h5>Form Buttons</h5>
+          <div class="buttons-style-guide clearfix">
+            <div class="f-left">
+              <button class="button" type="submit"> <span>Button</span></button>
+            </div>
+            <div class="f-left">
+              <button class="button rounded" type="submit">Send Message</button>
+            </div>
+          </div>
+          <hr><a class="button rounded expanded" href="#/">Expanded Rounded Button</a>
+          <hr>
+          <div class="text-center"><a class="button center" href="#/">Centered Button</a></div>
+          <hr>
+          <!--HOLLOW BUTTONS-->
+          <h5>Hollow Buttons</h5>
+          <div class="buttons-style-guide clearfix">
+            <div class="f-left"><a class="button hollow-button" href="#/">Button</a></div>
+            <div class="f-left"><a class="button hollow-button squared" href="#/">Squared Button</a></div>
+            <hr><a class="button hollow-button rounded expanded" href="#/">Expanded Round Button</a>
+            <hr>
+            <div class="text-center"><a class="button hollow-button center" href="#/">Centered Button</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- BREADCRUMBS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="breadcrumbs">Breadcrumbs</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <nav aria-label="You are here:" role="navigation">
+            <ul class="breadcrumbs center-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Link 1</a></li>
+              <li class="disabled">Link 2 (Disabled)</li>
+              <li><span class="show-for-sr">Current: </span> Current Page</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- ACCORDION-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="accordion">Accordion</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <!-- ACCORDION-CODE-STARTS-HERE-->
+          <ul class="accordion" data-accordion="" data-multi-expand="true" data-allow-all-closed="true">
+            <li class="accordion-item is-active" data-accordion-item=""><a class="accordion-title">Accordion 1</a>
+              <div class="accordion-content" data-tab-content="">Starts in the open state thanks to the <code>is-active</code> class</div>
+            </li>
+            <li class="accordion-item" data-accordion-item=""><a class="accordion-title">Accordion 2</a>
+              <div class="accordion-content" data-tab-content="">lorem ipsum is simply dummy text</div>
+            </li>
+            <li class="accordion-item" data-accordion-item=""><a class="accordion-title">Accordion 3</a>
+              <div class="accordion-content" data-tab-content="">lorem ipsum is simply dummy text</div>
+            </li>
+          </ul>
+          <!--END ACCORDIONS-->
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- NOTIFICATIONS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="notifications">Notifications</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <!-- SUCCESS NOTIFICATION-->
+          <div class="success callout" data-closable="fade-out">
+            <h5>Success!</h5>
+            <button class="close-button" aria-label="Dismiss alert" type="button" data-close=""><span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewbox="0 0 3.44 3.44">
+                  <path fill="#0ad6a9" fill-rule="evenodd" d="M3.23.59L2.096 1.717 3.23 2.85c.103.104.103.273 0 .38-.106.102-.274.102-.38 0L1.72 2.096.588 3.23c-.104.102-.273.102-.377 0-.102-.107-.102-.276 0-.38l1.134-1.13L.21.588C.108.484.108.315.21.21.316.107.485.107.59.21l1.13 1.133L2.85.21c.106-.103.274-.103.38 0 .103.104.103.273 0 .38z" clip-rule="evenodd"></path>
+                </svg></span></button>
+          </div>
+          <!-- WARNING NOTIFICATION-->
+          <div class="warning callout" data-closable="fade-out">
+            <h5>Warning!</h5>
+            <button class="close-button" aria-label="Dismiss alert" type="button" data-close=""><span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewbox="0 0 3.44 3.44">
+                  <path fill="#0ad6a9" fill-rule="evenodd" d="M3.23.59L2.096 1.717 3.23 2.85c.103.104.103.273 0 .38-.106.102-.274.102-.38 0L1.72 2.096.588 3.23c-.104.102-.273.102-.377 0-.102-.107-.102-.276 0-.38l1.134-1.13L.21.588C.108.484.108.315.21.21.316.107.485.107.59.21l1.13 1.133L2.85.21c.106-.103.274-.103.38 0 .103.104.103.273 0 .38z" clip-rule="evenodd"></path>
+                </svg></span></button>
+          </div>
+          <!-- ALERT NOTIFICATION-->
+          <div class="alert callout" data-closable="fade-out">
+            <h5>Error!</h5>
+            <button class="close-button" aria-label="Dismiss alert" type="button" data-close=""><span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewbox="0 0 3.44 3.44">
+                  <path fill="#0ad6a9" fill-rule="evenodd" d="M3.23.59L2.096 1.717 3.23 2.85c.103.104.103.273 0 .38-.106.102-.274.102-.38 0L1.72 2.096.588 3.23c-.104.102-.273.102-.377 0-.102-.107-.102-.276 0-.38l1.134-1.13L.21.588C.108.484.108.315.21.21.316.107.485.107.59.21l1.13 1.133L2.85.21c.106-.103.274-.103.38 0 .103.104.103.273 0 .38z" clip-rule="evenodd"></path>
+                </svg></span></button>
+          </div>
+          <!-- SECONDARY NOTIFICATION-->
+          <div class="secondary callout" data-closable="fade-out">
+            <h5>Secondary Notification.</h5>
+            <button class="close-button" aria-label="Dismiss alert" type="button" data-close=""><span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewbox="0 0 3.44 3.44">
+                  <path fill="#0ad6a9" fill-rule="evenodd" d="M3.23.59L2.096 1.717 3.23 2.85c.103.104.103.273 0 .38-.106.102-.274.102-.38 0L1.72 2.096.588 3.23c-.104.102-.273.102-.377 0-.102-.107-.102-.276 0-.38l1.134-1.13L.21.588C.108.484.108.315.21.21.316.107.485.107.59.21l1.13 1.133L2.85.21c.106-.103.274-.103.38 0 .103.104.103.273 0 .38z" clip-rule="evenodd"></path>
+                </svg></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- TABS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="tabs">Tabs</h1>
+        <hr class="title">
+        <!-- HORIZONTAL TABS-->
+        <ul class="tabs" id="example-tabs-2" data-tabs="">
+          <li class="tabs-title is-active"><a href="#panel1-1">Tab Section 1</a></li>
+          <li class="tabs-title"><a href="#panel2-1">Tab Section 2</a></li>
+          <li class="tabs-title"><a href="#panel3-1">Tab Section 3</a></li>
+          <li class="tabs-title"><a href="#panel4-1">Tab Section 4</a></li>
+        </ul>
+        <div class="tabs-content" data-tabs-content="example-tabs-2">
+          <div class="tabs-panel is-active" id="panel1-1">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+          </div>
+          <div class="tabs-panel" id="panel2-1">
+            <p>two</p>
+          </div>
+          <div class="tabs-panel" id="panel3-1">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+          </div>
+          <div class="tabs-panel" id="panel4-1">
+            <p>four</p><img class="thumbnail" src="http://placehold.it/350x150" alt="placeholder">
+          </div>
+        </div>
+        <!-- HORIZONTAL TABS-->
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- TABLES-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="tables">Tables</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <table class="center-text hover stack">
+            <thead>
+              <tr>
+                <th>Table Head</th>
+                <th>Table Head</th>
+                <th>Table Head</th>
+                <th>Table Head</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> <span class="label uppercase success">OK</span></td>
+                <td>Lorem / Ipsum / is simply</td>
+                <td>Lorem Ipsum</td>
+                <td>Lorem Ipsum is simply dummy text   </td>
+              </tr>
+              <tr>
+                <td><span class="label uppercase warning">Warning</span></td>
+                <td>Lorem / Ipsum / is simply</td>
+                <td>Lorem Ipsum</td>
+                <td>Lorem Ipsum is simply dummy text   </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- MODALS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="modals">Modals</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <!-- MODAL BUTTON--><a class="button expanded" data-open="exampleModal1">Open Modal</a>
+          <!-- MODAL (PLACE IT ANYWHERE)-->
+          <div class="reveal small" id="exampleModal1" data-reveal="" data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+            <h2 class="text-center modal-title">Modal Title</h2>
+            <div class="row">
+              <div class="small-16 medium-14 medium-centered columns">
+                <hr class="spacer">
+                <form>
+                  <label>Full Width Input</label>
+                  <input type="text" name="fullwidth1" placeholder="">
+                  <label>Full Width Input</label>
+                  <input type="password" name="password1" placeholder=""><a class="button rounded expanded" href="#/">Round Expanded</a>
+                </form>
+              </div>
+            </div>
+            <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewbox="0 0 10.054 10.054">
+                  <path fill="#78909c" fill-opacity=".406" fill-rule="evenodd" d="M6.732 7.197c-.128 0-.245-.052-.33-.136L5.028 5.687 3.65 7.06c-.083.085-.2.137-.328.137-.257 0-.465-.208-.465-.465 0-.128.052-.245.136-.33L4.37 5.028 2.992 3.65c-.084-.083-.136-.2-.136-.328 0-.257.208-.465.465-.465.13 0 .246.052.33.136L5.027 4.37l1.376-1.377c.084-.084.2-.136.33-.136.256 0 .464.208.464.465 0 .13-.052.245-.136.33L5.686 5.026 7.06 6.403c.085.084.137.2.137.33 0 .256-.208.464-.465.464M5.027.997c-2.225 0-4.03 1.805-4.03 4.03 0 2.226 1.805 4.03 4.03 4.03 2.226 0 4.03-1.804 4.03-4.03 0-2.225-1.804-4.03-4.03-4.03m0 8.99c-2.74 0-4.96-2.22-4.96-4.96 0-2.74 2.22-4.96 4.96-4.96 2.74 0 4.96 2.22 4.96 4.96 0 2.74-2.22 4.96-4.96 4.96" clip-rule="evenodd"></path>
+                </svg></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- BADGES & LABELS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="badges">Badges &amp; Labels</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <!-- LABELS--><span class="label uppercase success">OK</span><span class="label uppercase warning">Warning</span><span class="label uppercase alert">Alert</span><span class="label uppercase primary">Information</span>
+          <!-- BADGES--><span class="badge success">1</span><span class="badge warning">35</span><span class="badge alert">99</span><span class="badge primary">...</span>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- NAVIGATION-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="navigation">Navigation</h1>
+        <hr class="title">
+        <div class="p-l-35">
+          <header>
+            <nav>
+              <div class="small-16 columns">
+                <ul class="main-nav dropdown menu" data-dropdown-menu="">
+                  <li><a href="#/">Item 1</a></li>
+                  <li><a href="#/">Item 2</a></li>
+                  <li><a href="#/">Item 3</a></li>
+                  <li><a href="#/">Item Dropdown</a>
+                    <ul class="menu">
+                      <li><a href="#/">Sub Menu</a></li>
+                      <li><a href="#/">Sub Menu</a></li>
+                      <li><a href="#/">Sub Menu</a></li>
+                      <li><a href="#/">Sub Menu</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+        </div>
+      </div>
+    </div>
+    <hr class="spacer">
+    <hr>
+    <hr class="spacer">
+    <!-- HELPERS-->
+    <div class="row">
+      <div class="small-16 columns">
+        <h1 id="helpers">Helpers</h1>
+        <hr class="title">
+        <div class="p-l-35">       
+          <h5>Center any image</h5>
+          <p>
+             Simply add the class <code>.center-image</code> to any image in order to center it</p><img class="thumbnail center-image" src="http://placehold.it/350x150" alt="placeholder">
+          <hr>
+          <h5>Center any list</h5>
+          <p>
+             Simply add the class <code>.center-list</code> to any list in order to center it</p>
+          <ul class="center-list">
+            <li><a href="#/">List Item</a></li>
+            <li>&bull;</li>
+            <li><a href="#/">List Item 2</a></li>
+            <li>&bull;</li>
+            <li><a href="#/">List Item 3</a></li>
+            <li>&bull;</li>
+            <li><a href="#/">List Item 4</a></li>
+          </ul>
+          <hr>
+          <h5>Text Helpers</h5>
+          <p class="text-left">This text is <strong>left aligned</strong></p>
+          <p class="text-right">This text is <strong>right aligned</strong></p>
+          <p class="text-center">This text is <strong>centered</strong></p>
+          <p class="text-justify">
+             This text is <strong>justified</strong><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <hr>
+          <h5>Layout Space Helper</h5>
+          <p> </p>When you need to add some space between elements but don't want to mess with CSS simply add a <code>hr.spacer</code> between the elements in order to add a nice space between them
+          <hr class="spacer">
+          <p>This line of text has a  <code>hr.spacer</code> above it, creating that nice space</p>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/app-min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script>
+      // body fade in-out
+      window.addEventListener("beforeunload", function () {
+        document.body.classList.add("animate-out");
+      });
+    </script>
+  </body>
+</html>
