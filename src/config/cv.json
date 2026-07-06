@@ -29,19 +29,19 @@
         {
             "title": "Master in Computer Security Engineering and AI",
             "sub_title": "University of Rovira i Virgili",
-            "years": "2025 (in progress)",
+            "years": "In progress",
             "details": "Focused on application security and machine learning."
         }
     ],
     "projects": [
         {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/Ninja_Gaiden_4_cover_art.jpg",
+            "imageUrl": "https://lzubiaur.dev/ninja_gaiden.jpg",
             "title": "Ninja Gaiden 4",
             "type": "Console/PC Game",
             "link": "https://teamninja-studio.com/ng4/us/"
         },
         {
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Age_of_Mythology_Retold_cover_art.jpg",
+            "imageUrl": "https://lzubiaur.dev/age_of_mythology.jpg",
             "title": "Age of Mythology: Retold",
             "type": "Console/PC Game",
             "link": "https://www.ageofempires.com/games/age-of-mythology-retold/"
