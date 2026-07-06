@@ -50,7 +50,7 @@
             "imageUrl": "https://static.wikia.nocookie.net/peanuts/images/b/bf/SnoopysTownTale.jpg/revision/latest/scale-to-width-down/1000?cb=20180330054907",
             "title": "Peanuts Snoopy's Town Tale",
             "type": "Mobile Game",
-            "link": ""
+            "link": "https://www.youtube.com/watch?v=5Jo014QfteQ"
         }
     ],
     "menuItems": [
@@ -60,7 +60,7 @@
         },
         {
             "name": "Blog",
-            "link": "/blogs"
+            "link": ""
         }
     ],
     "socialLinks": [
