@@ -2,7 +2,7 @@
     "basic": {
         "name": "Laurent Zubiaur",
         "job": "Software Engineer",
-        "summary": "Transforming challenges into opportunities with cutting-edge technology. Driven by a love for elegant, robust code.",
+        "summary": "8+ years in the game industry specializing in proprietary engines. Thriving in cross-functional teams. Driven by shipping complex systems.",
         "cv_file_name": "paul_cv.pdf"
     },
     "experiences": [
@@ -21,13 +21,13 @@
     ],
     "education": [
         {
-            "title": "Bachelor of Science in Computer Science",
+            "title": "Bachelor in Computer Science",
             "sub_title": "Haute Ecole de Liege",
             "years": "2005",
             "details": "Graduated with distinction. Specialized in software development, data structures, and algorithms."
         },
         {
-            "title": "University Master's Degree in Computer Security Engineering and AI",
+            "title": "Master in Computer Security Engineering and AI",
             "sub_title": "University of Rovira i Virgili",
             "years": "2025 (in progress)",
             "details": "Focused on application security and machine learning."
