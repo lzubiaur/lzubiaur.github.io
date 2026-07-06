@@ -16,7 +16,7 @@
             "title": "Software Engineer",
             "sub_title": "Pixowl",
             "years": "2017 - 2018",
-            "details": "Implemented new gameplay features for mobile game (C++, Android, iOS)"
+            "details": "Implemented new gameplay features for mobile games (C++, Android, iOS)"
         }
     ],
     "education": [
@@ -24,7 +24,7 @@
             "title": "Bachelor in Computer Science",
             "sub_title": "Haute Ecole de Liege",
             "years": "2005",
-            "details": "Graduated with distinction. Specialized in software development, data structures, and algorithms."
+            "details": "Specialized in software development, data structures, and algorithms."
         },
         {
             "title": "Master in Computer Security Engineering and AI",
