@@ -1,0 +1,76 @@
+{
+    "basic": {
+        "name": "Laurent Zubiaur",
+        "job": "Software Engineer",
+        "summary": "Transforming challenges into opportunities with cutting-edge technology. Driven by a love for elegant, robust code.",
+        "cv_file_name": "paul_cv.pdf"
+    },
+    "experiences": [
+        {
+            "title": "Game Engine Programmer",
+            "sub_title": "Wizcorp (Keywords Studios)",
+            "years": "2018 - Present",
+            "details": "Built custom engine systems and DCC tools for Japanese AAA studios (C++, C#)"
+        },
+        {
+            "title": "Software Engineer",
+            "sub_title": "Pixowl",
+            "years": "2017 - 2018",
+            "details": "Implemented new gameplay features for mobile game (C++, Android, iOS)"
+        }
+    ],
+    "education": [
+        {
+            "title": "Bachelor of Science in Computer Science",
+            "sub_title": "Haute Ecole de Liege",
+            "years": "2005",
+            "details": "Graduated with distinction. Specialized in software development, data structures, and algorithms."
+        },
+        {
+            "title": "University Master's Degree in Computer Security Engineering and AI",
+            "sub_title": "University of Rovira i Virgili",
+            "years": "2025 (in progress)",
+            "details": "Focused on application security and machine learning."
+        }
+    ],
+    "projects": [
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/Ninja_Gaiden_4_cover_art.jpg",
+            "title": "Ninja Gaiden 4",
+            "type": "Console/PC Game",
+            "link": "https://teamninja-studio.com/ng4/us/"
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Age_of_Mythology_Retold_cover_art.jpg",
+            "title": "Age of Mythology: Retold",
+            "type": "Console/PC Game",
+            "link": "https://www.ageofempires.com/games/age-of-mythology-retold/"
+        },
+        {
+            "imageUrl": "https://static.wikia.nocookie.net/peanuts/images/b/bf/SnoopysTownTale.jpg/revision/latest/scale-to-width-down/1000?cb=20180330054907",
+            "title": "Peanuts Snoopy's Town Tale",
+            "type": "Mobile Game",
+            "link": ""
+        }
+    ],
+    "menuItems": [
+        {
+            "name": "About",
+            "link": "/"
+        },
+        {
+            "name": "Blog",
+            "link": "/blogs"
+        }
+    ],
+    "socialLinks": [
+        {
+            "iconName": "Github",
+            "link": "https://github.com/lzubiaur"
+        },
+        {
+            "iconName": "LinkedIn",
+            "link": "https://www.linkedin.com/in/lzubiaur/"
+        }
+    ]
+}
