@@ -2,7 +2,7 @@
     "basic": {
         "name": "Laurent Zubiaur",
         "job": "Software Engineer",
-        "summary": "8+ years in the game industry specializing in proprietary engines. Thriving in cross-functional teams. Driven by shipping complex systems.",
+        "summary": "9+ years in the game industry specializing in proprietary engines and tools/DCC (.NET/C++). Shipped products used in production pipelines and released in AAA titles.",
         "cv_file_name": "paul_cv.pdf"
     },
     "experiences": [
@@ -13,7 +13,7 @@
             "details": "Built custom engine systems and DCC tools for Japanese AAA studios (C++, C#)"
         },
         {
-            "title": "Software Engineer",
+            "title": "Game Developer",
             "sub_title": "Pixowl",
             "years": "2017 - 2018",
             "details": "Implemented new gameplay features for mobile games (C++, Android, iOS)"
@@ -51,6 +51,18 @@
             "title": "Peanuts Snoopy's Town Tale",
             "type": "Mobile Game",
             "link": "https://www.youtube.com/watch?v=5Jo014QfteQ"
+        },
+        {
+            "imageUrl": "https://livedoor.blogimg.jp/linegame_pr/imgs/f/1/f13aec65.png",
+            "title": "Jetpack Bandits",
+            "type": "Mobile Game",
+            "link": "https://linegame-official.blog.jp/archives/55825096.html"
+        },
+        {
+            "imageUrl": "https://play-lh.googleusercontent.com/u5m78CkQZbfnzFaa6kYbLZDUIeuYa5LHayTkqA4VuRpR5yWTZQBdDCU6qdbfdHEfER_YQ1EatKFKs0BgaQNm7A=w526-h296-rw",
+            "title": "Goosebumps Horror Town",
+            "type": "Mobile Game",
+            "link": "https://play.google.com/store/apps/details?id=com.pixowl.goosebumps&hl=en_US"
         }
     ],
     "menuItems": [
