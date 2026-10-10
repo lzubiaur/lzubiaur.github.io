@@ -21,16 +21,16 @@
     ],
     "education": [
         {
-            "title": "Bachelor in Computer Science",
-            "sub_title": "Haute Ecole de Liege",
-            "years": "2005",
-            "details": "Specialized in software development, data structures, and algorithms."
-        },
-        {
             "title": "Master in Computer Security Engineering and AI",
             "sub_title": "University of Rovira i Virgili",
             "years": "In progress",
             "details": "Focused on application security and machine learning."
+        },
+        {
+            "title": "Bachelor in Computer Science",
+            "sub_title": "Haute Ecole de Liege",
+            "years": "2005",
+            "details": "Software engineering, data structures, and algorithms."
         }
     ],
     "projects": [
@@ -77,12 +77,12 @@
     ],
     "socialLinks": [
         {
-            "iconName": "Github",
-            "link": "https://github.com/lzubiaur"
-        },
-        {
             "iconName": "LinkedIn",
             "link": "https://www.linkedin.com/in/lzubiaur/"
+        },
+        {
+            "iconName": "Github",
+            "link": "https://github.com/lzubiaur"
         }
     ]
 }
