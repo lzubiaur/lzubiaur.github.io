@@ -1,6 +1,6 @@
 ---
 title: "Games From Spain - Tokyo Game Show 2026"
-pubDate: 2026-10-09
+datetime: 2026-10-10T12:00:00Z
 description: "."
 author: "Laurent Zubiaur"
 tags: ["astro", "blogging", "jamstack"]
