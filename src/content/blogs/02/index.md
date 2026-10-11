@@ -5,9 +5,11 @@ description: "."
 author: "Laurent Zubiaur"
 tags: ["game", "esport", "Japan"]
 ---
-Last Thursday I attended the ACCJ session on esports and gaming, featuring Yu Matsui, Baro Hyun and Chad Mirshak. A great discussion and Q&A.
+On Thursday I attended an [session on esports and gaming](https://lnkd.in/p/gG9Ujc-f). A great discussion and Q&A.
 
-Thanks to the American Chamber of Commerce in Japan and Robert Walters for hosting.
+The talk covered how gaming and esports can connect business, education and community. The Q&A ran more than 30 minutes over, and the evening ended with networking over classic games, hosted by Robert Walters.
+
+I don’t know much about esports, so it was a useful introduction to the business side of the scene.
 
 ![image01](./01.jpg)
 ![image02](./02.jpg)
