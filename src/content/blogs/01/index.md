@@ -5,7 +5,7 @@ description: "."
 author: "Laurent Zubiaur"
 tags: ["game", "japan", "TGS", "Tokyo Game Show"]
 ---
-I attended the [Spain Game Matsuri 2026](https://lnkd.in/p/gdSTFR6p) in Tokyo in avdanve of the Tokyo Game Show TGS2026.
+I attended the [Spain Game Matsuri 2026](https://lnkd.in/p/gdSTFR6p) in Tokyo ahead of the Tokyo Game Show TGS2026.
 
 Having spent years in Barcelona before moving to Japan, it was great to see both sides of the industry in one room. 
 
