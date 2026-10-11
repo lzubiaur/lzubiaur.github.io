@@ -1,6 +1,6 @@
 ---
 title: "Games From Spain - Tokyo Game Show 2026"
-datetime: "2026-10-10T12:00:00Z"
+datetime: "2026-09-16T12:00:00Z"
 description: "."
 author: "Laurent Zubiaur"
 tags: ["astro", "blogging", "jamstack"]
@@ -11,5 +11,5 @@ Having spent years in Barcelona before moving to Japan, it was great to see both
 
 Always good to connect with people building interesting things. Looking forward to the next one and to the paella!
 
-![image01](./01.png)
-![image02](./02.png)
+![image01](./01.jpg)
+![image02](./02.jpg)
