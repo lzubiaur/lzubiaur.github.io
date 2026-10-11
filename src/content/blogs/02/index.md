@@ -5,7 +5,7 @@ description: "."
 author: "Laurent Zubiaur"
 tags: ["game", "esport", "Japan"]
 ---
-On Thursday I attended an [session on esports and gaming](https://lnkd.in/p/gG9Ujc-f). A great discussion and Q&A.
+On Thursday I attended a [session on esports and gaming](https://lnkd.in/p/gG9Ujc-f). A great discussion and Q&A.
 
 The talk covered how gaming and esports can connect business, education and community. The Q&A ran more than 30 minutes over, and the evening ended with networking over classic games, hosted by Robert Walters.
 
