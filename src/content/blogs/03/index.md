@@ -1,6 +1,6 @@
 ---
 title: ".NET Tokyo Meetup"
-datetime: "2026-11-25T12:00:00Z"
+datetime: "2026-11-24T12:00:00Z"
 description: "I had the pleasure of giving a talk on game development..."
 author: "Laurent Zubiaur"
 tags: ["game", ".NET", "Microsoft", "Japan"]

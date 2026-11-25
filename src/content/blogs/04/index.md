@@ -1,5 +1,5 @@
 ---
-title: ".NET Tokyo Meetup"
+title: "Scientific Game Jam 2026"
 datetime: "2026-11-25T12:00:00Z"
 description: "So much talent and creativity at the Scientific Game Jam 2026..."
 author: "Laurent Zubiaur"
