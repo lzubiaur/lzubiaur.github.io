@@ -1,7 +1,7 @@
 ---
 title: "The Esports Advantage"
 datetime: "2026-10-08T12:00:00Z"
-description: "."
+description: "On Thursday I attended a [session on esports and gaming..."
 author: "Laurent Zubiaur"
 tags: ["game", "esport", "Japan"]
 ---

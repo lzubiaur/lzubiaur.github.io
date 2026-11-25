@@ -1,7 +1,7 @@
 ---
 title: "Games From Spain - Tokyo Game Show 2026"
 datetime: "2026-09-16T12:00:00Z"
-description: "."
+description: "I attended the Spain Game Matsuri 2026 in Tokyo..."
 author: "Laurent Zubiaur"
 tags: ["game", "japan", "TGS", "Tokyo Game Show"]
 ---
